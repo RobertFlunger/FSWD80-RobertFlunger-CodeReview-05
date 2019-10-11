@@ -1,0 +1,37 @@
+var obj = [{
+	"name" : "Gemini Man",
+	"description" : "An over-the-hill hitman faces off against a younger clone of himself.",
+	"img" : "img/gemini_man.jpg"
+}, {
+	"name" : "The Addams Family (2019)",
+	"description" : "An animated version of Charles Addams' series of cartoons about a peculiar, ghoulish family.",
+	"img" : "img/addams_family.jpg"
+}, {
+	"name" : "Joker",
+	"description" : "In Gotham City, mentally-troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: 'The Joker'.",
+	"img" : "img/joker.jpg"
+}, {
+	"name" : "Abominable",
+	"description" : "A magical Yeti must return to his family.",
+	"img" : "img/abominable.jpg"
+}, {
+	"name" : "IT: Chapter Two",
+	"description" : "Twenty-seven years after their first encounter with the terrifying Pennywise, the Losers Club have grown up and moved away, until a devastating phone call brings them back.",
+	"img" : "img/IT.jpg"
+}, {
+	"name" : "Hustlers",
+	"description" : "Inspired by the viral New York Magazine article, Hustlers follows a crew of savvy former strip club employees who band together to turn the tables on their Wall Street clients.",
+	"img" : "img/hustlers.jpg"
+}, {
+	"name" : "Rambo: Last Blood",
+	"description" : "Rambo must confront his past and unearth his ruthless combat skills to exact revenge in a final mission.",
+	"img" : "img/rambo.jpg"
+}, {
+	"name" : "Parasite",
+	"description" : "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+	"img" : "img/parasite.jpg"
+}, {
+	"name" : "Jexi",
+	"description" : "A comedy about what can happen when you love your phone more than anything else in your life.",
+	"img" : "img/jexi.jpg"
+	}];					

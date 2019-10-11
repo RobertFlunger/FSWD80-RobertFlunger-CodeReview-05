@@ -1,0 +1,18 @@
+#header {
+  background-color: black; }
+
+#main-wrapper {
+  padding-bottom: 50px; }
+  #main-wrapper .movie-wrapper {
+    margin: 25px 0; }
+    #main-wrapper .movie-wrapper .movie-description {
+      margin: 25px 0;
+      flex: 0 0 47.5%;
+      max-width: 47.5%; }
+      #main-wrapper .movie-wrapper .movie-description h5 {
+        font-size: 0.8em;
+        text-align: justify; }
+      #main-wrapper .movie-wrapper .movie-description .like-btn:hover {
+        cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
