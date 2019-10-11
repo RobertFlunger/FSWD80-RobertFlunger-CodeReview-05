@@ -1,18 +1,39 @@
 #header {
-  background-color: black; }
+  background-color: black;
+  padding: 25px 0; }
+  #header h1 {
+    font-size: 5em; }
+
+.navbar h3 {
+  padding-left: 10px; }
 
 #main-wrapper {
   padding-bottom: 50px; }
+  #main-wrapper #upper-row {
+    padding-top: 20px; }
+    #main-wrapper #upper-row h2 {
+      font-size: 3em; }
+    #main-wrapper #upper-row .dropdown-toggle {
+      font-size: 1.5em;
+      padding-top: 15px; }
   #main-wrapper .movie-wrapper {
     margin: 25px 0; }
     #main-wrapper .movie-wrapper .movie-description {
       margin: 25px 0;
-      flex: 0 0 47.5%;
-      max-width: 47.5%; }
+      max-width: 100%;
+      background-color: #111111;
+      padding: 10px 0 10px 10px; }
+      @media (min-width: 768px) {
+        #main-wrapper .movie-wrapper .movie-description {
+          max-width: 47.5%; } }
       #main-wrapper .movie-wrapper .movie-description h5 {
-        font-size: 0.8em;
+        font-size: 1em;
         text-align: justify; }
       #main-wrapper .movie-wrapper .movie-description .like-btn:hover {
         cursor: pointer; }
+
+#footer {
+  padding: 35px 0;
+  background-color: black; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,20 +1,46 @@
 #header
 	background-color: black
+	padding: 25px 0
+
+	h1
+		font-size: 5em
+
+.navbar
+	h3
+		padding-left: 10px
 
 #main-wrapper
 	padding-bottom: 50px
-
+	
+	#upper-row
+		padding-top: 20px
+		
+		h2
+			font-size: 3em
+		
+		.dropdown-toggle
+			font-size: 1.5em
+			padding-top: 15px
+	
 	.movie-wrapper
 		margin: 25px 0	
 
 		.movie-description
 			margin: 25px 0
-			flex: 0 0 47.5%
-			max-width: 47.5%
+			max-width: 100%
+			background-color: #111111
+			padding: 10px 0 10px 10px
+
+			@media (min-width: 768px) 
+				max-width: 47.5%
 
 			h5
-				font-size: 0.8em
+				font-size: 1.0em
 				text-align: justify
 
 			.like-btn:hover
 				cursor: pointer	
+
+#footer
+	padding: 35px 0
+	background-color: black

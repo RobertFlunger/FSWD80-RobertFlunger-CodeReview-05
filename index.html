@@ -17,23 +17,34 @@
 
 </head>
 <body>
-	<div class="container-fluid text-white text-center" id="header">Movie Factory</div>
+	<div class="container-fluid text-white text-center" id="header">
+		<h1>Movie Factory</h1>
+	</div>
 	<nav class="navbar bg-secondary">
 		<ul class="navbar-nav">
 			<li class="nav-item active">
-				<a class="nav-link text-white" href="#">Home</a>
+				<a class="nav-link text-white" href="#"><h3>Home</h3></a>
 			</li>
 		</ul>
 	</nav>
-<button id="order">click</button>
 	<div class="container-fluid bg-dark text-white" id="main-wrapper">
-		<div class="row">
-			<div class="col-2 offset-md-5 text-center">Movies</div>
-			<div class="col-1 offset-md-4 text-right">Sort</div>
+		<div class="row" id="upper-row">
+			<div class="col-2 offset-md-5 text-center"><h2>Movies</h2></div>
+			<div class="col-1 offset-md-4 text-right">
+				<div class="btn-group dropleft">
+					<button type="button" class="btn btn-link dropdown-toggle text-white" data-toggle="dropdown">Sort
+					</button>
+					<ul class="dropdown-menu">
+						<button class="dropdown-item" id="default-order">Default</button>
+						<button class="dropdown-item" id="descending-sort">Descending</button>
+						<button class="dropdown-item" id="ascending-sort">Ascending</button>
+					</ul>
+				</div>
+			</div>
 		</div>
 		
 		<div class="row d-flex justify-content-between movie-wrapper">
-			<div class="col-5 bg-danger movie-description">
+			<div class="col-md-12 col-lg-6 movie-description">
 				<div class="row">
 					<div class="col-3" id="img-cont0">
 					</div>
@@ -46,7 +57,7 @@
 							<h2 class="text-success">Like <span class="fas fa-thumbs-up text-success like-btn"></span>
 								<span class="fa-stack"> 
 									<span class="fas fa-circle fa-stack-2x"></span> 
-									<span class="fa-stack-1x text-white like-amnt" id="likes0">0</span>
+									<span class="fa-stack-1x text-white like-amnt">0</span>
 								</span>
 							</h2>
 						</div>
@@ -54,7 +65,7 @@
 				</div>
 			</div>
 
-			<div class="col-5 bg-danger movie-description">
+			<div class="col-md-12 col-lg-6 movie-description">
 				<div class="row">
 					<div class="col-3" id="img-cont1">
 					</div>
@@ -67,7 +78,7 @@
 							<h2 class="text-success">Like <span class="fas fa-thumbs-up text-success like-btn"></span>
 								<span class="fa-stack"> 
 									<span class="fas fa-circle fa-stack-2x"></span> 
-									<span class="fa-stack-1x text-white like-amnt" id="likes1">0</span>
+									<span class="fa-stack-1x text-white like-amnt">0</span>
 								</span>
 							</h2>
 						</div>
@@ -75,7 +86,7 @@
 				</div>
 			</div>
 
-			<div class="col-5 bg-danger movie-description">
+			<div class="col-md-12 col-lg-6 movie-description">
 				<div class="row">
 					<div class="col-3" id="img-cont2">
 					</div>
@@ -88,7 +99,7 @@
 							<h2 class="text-success">Like <span class="fas fa-thumbs-up text-success like-btn"></span>
 								<span class="fa-stack"> 
 									<span class="fas fa-circle fa-stack-2x"></span> 
-									<span class="fa-stack-1x text-white like-amnt" id="likes2">0</span>
+									<span class="fa-stack-1x text-white like-amnt">0</span>
 								</span>
 							</h2>
 						</div>
@@ -96,7 +107,7 @@
 				</div>
 			</div>
 
-			<div class="col-5 bg-danger movie-description">
+			<div class="col-md-12 col-lg-6 movie-description">
 				<div class="row">
 					<div class="col-3" id="img-cont3">
 					</div>
@@ -109,7 +120,7 @@
 							<h2 class="text-success">Like <span class="fas fa-thumbs-up text-success like-btn"></span>
 								<span class="fa-stack"> 
 									<span class="fas fa-circle fa-stack-2x"></span> 
-									<span class="fa-stack-1x text-white like-amnt" id="likes3">0</span>
+									<span class="fa-stack-1x text-white like-amnt">0</span>
 								</span>
 							</h2>
 						</div>
@@ -117,7 +128,7 @@
 				</div>
 			</div>
 
-			<div class="col-5 bg-danger movie-description">
+			<div class="col-md-12 col-lg-6 movie-description">
 				<div class="row">
 					<div class="col-3" id="img-cont4">
 					</div>
@@ -130,7 +141,7 @@
 							<h2 class="text-success">Like <span class="fas fa-thumbs-up text-success like-btn"></span>
 								<span class="fa-stack"> 
 									<span class="fas fa-circle fa-stack-2x"></span> 
-									<span class="fa-stack-1x text-white like-amnt" id="likes4">0</span>
+									<span class="fa-stack-1x text-white like-amnt">0</span>
 								</span>
 							</h2>
 						</div>
@@ -138,7 +149,7 @@
 				</div>
 			</div>
 
-			<div class="col-5 bg-danger movie-description">
+			<div class="col-md-12 col-lg-6 movie-description">
 				<div class="row">
 					<div class="col-3" id="img-cont5">
 					</div>
@@ -151,7 +162,7 @@
 							<h2 class="text-success">Like <span class="fas fa-thumbs-up text-success like-btn"></span>
 								<span class="fa-stack"> 
 									<span class="fas fa-circle fa-stack-2x"></span> 
-									<span class="fa-stack-1x text-white like-amnt" id="likes5">0</span>
+									<span class="fa-stack-1x text-white like-amnt">0</span>
 								</span>
 							</h2>
 						</div>
@@ -159,11 +170,11 @@
 				</div>
 			</div>
 		</div>
+	</div>
 <!-- Footer START-->
-<footer>
-	<div class="container-fluid text-white text-center" id="header">Movie Factory</div>
-	
-</footer>		
+
+	<div class="container-fluid text-white text-center" id="footer"><h1>Movie Factory</h1></div>
+		
 <!-- Footer END -->
 <!-- Javascript integration -->
 	<script type="text/javascript" src="js/movies.json"></script>
