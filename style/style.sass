@@ -1,3 +1,5 @@
+/*Some custom style properties in addition to the Bootstrap styling - also added some media queries for better transitions*/
+
 #header
 	background-color: black
 	padding: 25px 0
@@ -31,15 +33,30 @@
 			background-color: #111111
 			padding: 10px 0 10px 10px
 
+			img
+				padding: 1px
+
 			@media (min-width: 768px) 
 				max-width: 47.5%
 
 			h5
-				font-size: 1.0em
+				font-size: 1.5em
 				text-align: justify
+				
+				@media (max-width: 992px) 
+					font-size: 1em
 
-			.like-btn:hover
-				cursor: pointer	
+			h2
+				.like-btn:hover
+					cursor: pointer	
+
+				.dislike-btn:hover
+					cursor: pointer 
+				
+				@media (max-width: 992px) 
+					font-size: 1.2em		
+
+	
 
 #footer
 	padding: 35px 0
